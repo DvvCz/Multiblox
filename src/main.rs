@@ -1,3 +1,6 @@
+// This makes the console not appear when running.
+#![windows_subsystem = "windows"]
+
 mod singleton;
 
 #[derive(PartialEq, Clone)]
